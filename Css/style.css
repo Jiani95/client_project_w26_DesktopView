@@ -105,7 +105,7 @@ header {
   padding-top: 96px;
 }
 
-.menu-wrap nav ul {
+.menu-wrap nav .nav-links {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -487,8 +487,7 @@ h1 {
     z-index: 9999;
   }
 
-  .desktop-nav ul {
-    list-style: none;
+  .desktop-nav .nav-links {
     margin: 0;
     padding: 0;
     display: flex;

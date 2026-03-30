@@ -8,27 +8,27 @@
     <title>Career Exploration</title>
   </head>
   <body>
-    <header>
+    <header role="banner">
       <a href="#main">Skip to Main Content</a>
       <img src="images/logo-header.png" alt="UMSI Logo" class="site-logo" />
       <details class="menu-wrap">
         <summary><span class="menu-icon">&#9776;</span><span class="menu-label">Menu</span></summary>
-        <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="resume.html">Resumes</a></li>
-          <li><a href="Networking.html">Networking & Connections</a></li>
-          <li><a href="career-exploration.html" aria-current="page">Career Exploration</a></li>
-        </ul>
+        <nav role="navigation" aria-label="Mobile navigation">
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="resume.html">Resumes</a>
+          <a href="Networking.html">Networking & Connections</a>
+          <a href="career-exploration.html" aria-current="page">Career Exploration</a>
+        </div>
         </nav>
       </details>
-      <nav class="desktop-nav" aria-label="Desktop navigation">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="resume.html">Resumes</a></li>
-          <li><a href="Networking.html">Networking & Connections</a></li>
-          <li><a href="career-exploration.html" aria-current="page">Career Exploration</a></li>
-        </ul>
+      <nav class="desktop-nav" role="navigation" aria-label="Desktop navigation">
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="resume.html">Resumes</a>
+          <a href="Networking.html">Networking & Connections</a>
+          <a href="career-exploration.html" aria-current="page">Career Exploration</a>
+        </div>
       </nav>
       <img
         src="images/MCOMMONS-Earthfest2025-1.jpg"
@@ -38,7 +38,7 @@
       <h1>Welcome to the Career Exploration Hub</h1>
     </header>
 
-    <main id="main">
+    <main id="main" role="main">
       <section id="career-coaching" class="section2-block">
         <h2>Career Coaching</h2>
         <p>UMSI CDO offers career coaching services</p>
@@ -112,7 +112,7 @@
     </section>
     </main>
 
-    <footer id="footer">
+    <footer id="footer" role="contentinfo">
       <p>
         @University of Michigan School of Information |
         <a href="https://umich.instructure.com/courses/137916"
